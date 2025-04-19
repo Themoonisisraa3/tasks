@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://tasks-imx1.onrender.com';
+const API_URL = 'https://tasks-imx1.onrender.com/api/tasks';
 
 const apiClient = axios.create({
   baseURL: API_URL,
