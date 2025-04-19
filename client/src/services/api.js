@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://tasks-six-iota.vercel.app/';
+const API_URL = 'https://tasks-imx1.onrender.com';
 
 const apiClient = axios.create({
   baseURL: API_URL,
