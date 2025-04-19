@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // 👇 Use full working backend URL
-const API_URL = 'https://tasks-imx1.onrender.com/api';
+const API_URL = 'https://tasks-imx1.onrender.com/api/tasks';
 
 const apiClient = axios.create({
   baseURL: API_URL,
